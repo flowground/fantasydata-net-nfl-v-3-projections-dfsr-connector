@@ -1,0 +1,22 @@
+{
+    "type": "object",
+    "properties": {
+        "format": {
+            "required": true,
+            "type": "string",
+            "enum": [
+                "xml",
+                "json"
+            ],
+            "default": "xml"
+        },
+        "season": {
+            "required": true,
+            "type": "string"
+        },
+        "week": {
+            "required": true,
+            "type": "string"
+        }
+    }
+}
